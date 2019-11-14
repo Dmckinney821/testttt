@@ -19,7 +19,7 @@ router
 router.route('/:id')
     .get(getBootcamp)
     .put(updateBootcamp)
-    .post(deleteBootcamp);
+    .delete(deleteBootcamp);
 
 
 module.exports = router
