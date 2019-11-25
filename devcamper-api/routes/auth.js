@@ -2,12 +2,12 @@ const express = require('express');
 const {
   register,
   login,
-  logout,
   getMe,
   forgotPassword,
   resetPassword,
   updateDetails,
-  updatePassword
+  updatePassword,
+  logout
 } = require('../controllers/auth');
 
 const router = express.Router();
